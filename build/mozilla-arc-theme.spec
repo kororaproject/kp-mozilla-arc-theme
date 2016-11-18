@@ -6,7 +6,7 @@
 %global firefox_inst_dir %{moz_extensions}/%{firefox_app_id}
 
 Name:           mozilla-arc-theme
-Version:        46.20160426
+Version:        50.20161114
 Release:        1%{?dist}
 Summary:        Arc theme for Firefox
 
@@ -40,6 +40,9 @@ rm -rf %{buildroot}
 %{firefox_inst_dir}/%{src_ext_id}.xpi
 
 %changelog
+* Fri Nov 18 2016 Chris Smart <csmart@kororaproject.org> - 50.20161114-1
+- Support for Firefox 50
+
 * Fri May 13 2016 Chris Smart <csmart@kororaproject.org> - 46.20160426-1
 - Bump version.
 
